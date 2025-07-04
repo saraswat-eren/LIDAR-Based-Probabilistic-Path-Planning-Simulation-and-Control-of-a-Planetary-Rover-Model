@@ -30,4 +30,7 @@ The project simulates a six-wheeled rover with a rocker-bogie suspension system,
 
 # Steps to run the Simulation
 
-1) Download the total 15 files 
+1) Download all the 15 files and 2 folders.
+2) At first run the run_sm.mat file.
+3) Then run the Lidar.mat file from the Lidar folder.
+4) Then open the smMarsRover simulink model and run that model.
