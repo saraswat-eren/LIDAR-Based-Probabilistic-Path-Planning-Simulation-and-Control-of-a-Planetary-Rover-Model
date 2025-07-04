@@ -1,0 +1,9 @@
+pt1 = [roverPath_x(1); roverPath_y(1); roverPath_z(1)];  % Waypoint 1 (start)
+pt2 = [roverPath_x(2); roverPath_y(2); roverPath_z(2)];  % Waypoint 2 (next)
+dir = pt2 - pt1;
+dx = roverPath_x(2) - roverPath_x(1);
+dy = roverPath_y(2) - roverPath_y(1);
+dz = roverPath_z(2) - roverPath_z(1);
+yaw   = atan2(dy, dx);                         % Facing direction in X-Y plane
+pitch = atan2(-dz, sqrt(dx^2 + dy^2));         % Tilt up/down (negative to point downward)
+roll  = atan2( dz, dy );                       % Typically 0 for wheeled ground rovers
