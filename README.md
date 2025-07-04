@@ -26,3 +26,8 @@ The project simulates a six-wheeled rover with a rocker-bogie suspension system,
 
 
 4) Real-Time Control: Provides dynamic control adjustments based on sensor feedback.
+
+
+# Steps to run the Simulation
+
+1) Download the total 15 files 
